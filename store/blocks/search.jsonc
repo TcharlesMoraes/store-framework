@@ -51,5 +51,16 @@
 	},
 	"gallery": {
 		"blocks": ["product-summary.shelf"]
+	},
+	"search-not-found-layout": {
+		"children": [
+			"rich-text#no-results"
+		]
+	},
+	"rich-text#no-results": {
+		"props": {
+			"text": "## Não encontramos nenhum produto",
+			"textPosition": "CENTER"
+		}
 	}
 }
